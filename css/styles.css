@@ -6,6 +6,7 @@
     --color-primary:#4d41c0;
     --white:#fff;
     --text-ligth-gray:#aaa;
+    --star-yellow:#ffbb3a;
 }
 
 *{
@@ -81,7 +82,7 @@ padding: 40px 0;
     justify-content: space-between;
     background-color: var(--white);
     border-radius:  0 0 8px 8px;
-    min-height: 150px;
+    min-height: 220px;
 
 }
 
@@ -132,6 +133,29 @@ padding: 40px 0;
     font-size: 13px;
     font-weight: 700;
     margin-bottom: 20px;
+}
+
+.dsmovie-card-description-bottom{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+.dsmovie-card-description-bottom h4 {
+    font-size: 16px;
+    font-weight: 700px;
+    color: var(--star-yellow);
+}
+.dsmovie-card-description-bottom p{
+    font-size: 12px;
+    font-weight: 400;   
+    color: var(--text-gray);
+    margin-bottom: 10px;
+}
+
+.dsmovie-card-description-bottom img{
+    width: 22px;
 }
 
 .dsmovie-form-grup {
